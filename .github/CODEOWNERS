@@ -1,0 +1,3 @@
+# App repo: owned by the app team. Deployment config (Helm chart, environments, ArgoCD) is NOT here,
+# it lives in the GitOps repo (github.com/rosaliei/gitops-monorepo), owned by the devops team.
+*                     @rosaliei

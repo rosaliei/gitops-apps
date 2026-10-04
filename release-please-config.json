@@ -3,9 +3,22 @@
   "release-type": "simple",
   "include-component-in-tag": true,
   "bump-minor-pre-major": true,
+  "bootstrap-sha": "3031eb6150350cb5bfd325ea920bfedc2716e349",
   "packages": {
-    "gitops-apps/orders-api": { "component": "orders-api" },
-    "gitops-apps/inventory-svc": { "component": "inventory-svc", "extra-files": ["package.json"] },
-    "gitops-apps/web-frontend": { "component": "web-frontend", "extra-files": ["package.json"] }
+    "orders-api": {
+      "component": "orders-api"
+    },
+    "inventory-svc": {
+      "component": "inventory-svc",
+      "extra-files": [
+        "package.json"
+      ]
+    },
+    "web-frontend": {
+      "component": "web-frontend",
+      "extra-files": [
+        "package.json"
+      ]
+    }
   }
 }
